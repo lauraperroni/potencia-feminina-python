@@ -84,3 +84,63 @@ print(resto)
 
 valor = 45.00
 print(f'{valor:.2f}')
+
+
+# if-else
+
+if 1 > 2 :
+    print('1 é maior que 2')
+else : 
+    print('1 não é maior que 2')
+          
+
+# While
+
+numero = int(input('Digite um número: '))
+while numero == 2 :
+    print('Você digitou 2')
+    numero = int(input('Digite outro número: '))
+
+
+# FOR
+    
+frutas = ['Maçã', 'Banana', 'Uva']
+for fruta in frutas :
+    print(fruta)
+
+# Listas 
+
+lista_frutas = [] 
+lista_frutas.append('Maçã')
+lista_frutas.append('Banana')
+lista_frutas.append('Uva')
+print(lista_frutas)
+
+fruta = input('Digite sua fruta: ')
+lista_frutas.append(fruta)
+
+# Tuplas 
+
+tupla = ('maçã', 'banana', 'uva')
+print(tupla)
+tupla.append('Caju')
+print(tupla)
+
+fruta = input('Digite sua fruta: ')
+tupla.append(fruta)
+
+# Dicionários
+
+dicionario = {'Chave': 'valor'}
+dicionario['maca'] = 'é uma fruta'
+dicionario['gato'] = 'é um animal'
+dicionario['carro'] = 'é um veículo'
+
+print(dicionario)
+
+chave = input('Digite sua chave: ')
+valor = input('Digite seu valor: ')
+
+dicionario[chave] = valor
+
+
